@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#Eff2e6"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,7 +14,7 @@
         android:text="kdfbebe
 "
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -26,6 +27,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="84dp"
         android:text="Sandwich"
+        android:backgroundTint="#F1c9c2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,6 +38,7 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="84dp"
         android:text="Spaghetti"
+        android:backgroundTint="#F1c9c2"
         app:layout_constraintStart_toEndOf="@+id/decision1"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,10 +46,10 @@
         android:id="@+id/storybg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="96dp"
         android:text="eusahdnuiee"
         app:layout_constraintEnd_toEndOf="@+id/decision2"
-        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintHorizontal_bias="0.579"
         app:layout_constraintStart_toStartOf="@+id/decision1"
         app:layout_constraintTop_toBottomOf="@+id/outcome" />
 
